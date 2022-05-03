@@ -1,3 +1,21 @@
+/**
+ * Bubble Sort:
+ * -------------
+ * arr = [ 7, 8, 3, 1, 2 ]
+ *         0  1  2  3  4
+ * n = arr.lenght = 5
+ * iteration n-1
+ * Step 1:
+ * [ 7, 8, 3, 1, 2 ] - 7 8/3 8/1 8/2 8
+ *   0  1  2  3  4
+ * Step 2:
+ * [7, 3, 1, 2, 8] - 3 7/1 7/2 7 8
+ * Step 3:
+ * [3, 1, 2, 7, 8] - 1 3/2 3 7 8
+ * Step 4:
+ * [1 2 3 7 8]
+ */
+
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = { 7, 8, 3, 1, 2 };
